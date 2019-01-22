@@ -1,0 +1,30 @@
+/* урок 22*/
+#block h1, p {
+    margin-left: 200px;
+    margin-right: 200px;
+}
+p::first-letter{
+    color: red;
+    font-size: 27px;
+    font-style: italic;
+}
+#block1 h1, p {
+    margin-left: 200px;
+    margin-right: 200px;
+}
+p::first-line{
+    color: red;
+    font-style: italic;
+}
+#block2 h1,  p {
+    margin-left: 200px;
+    margin-right: 200px;
+}
+p::-moz-selection {
+    color: white;
+    background-color: green;
+}
+p::selection {
+    color: white;
+    background-color: green;
+}
